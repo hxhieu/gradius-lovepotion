@@ -1,13 +1,16 @@
 local text = "Hello World!"
-local iffy = require 'libs/iffy'
+--local iffy = require 'libs/iffy'
+local atlas = require 'assets/atlas-1'
 
 function love.load()
-    Test = iffy.newSpriteSheet("assets/atlas-1.png")
+    --Test = iffy.newSpriteSheet("assets/atlas-1.png")
+    Test = love.graphics.newImage("assets/atlas-1.png")  
 end
 
 function love.draw()
     --love.graphics.print(text, 400, 300)
-    iffy.drawSprite("vic-viper-0-0")
+    love.graphics.draw(Test, atlas["vic-viper-0-0"])
+    love.graphics.draw(Test, atlas["vic-viper-1-0"], 0,680)
 end
 
 function love.gamepadpressed(joystick, button)

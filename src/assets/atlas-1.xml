@@ -1,7 +1,0 @@
-<TextureAtlas imagePath="atlas-1.png">
-    <SubTexture name="vic-viper-4-0" x="0" y="0" width="64" height="64"/>
-    <SubTexture name="vic-viper-2-0" x="64" y="0" width="64" height="64"/>
-    <SubTexture name="vic-viper-1-0" x="128" y="0" width="64" height="64"/>
-    <SubTexture name="vic-viper-0-0" x="192" y="0" width="64" height="64"/>
-    <SubTexture name="vic-viper-3-0" x="256" y="0" width="64" height="64"/>
-</TextureAtlas>
