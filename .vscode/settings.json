@@ -1,0 +1,4 @@
+{
+  "Lua.diagnostics.globals": ["love"],
+  "pixelbyte.love2d.path": "/usr/bin/love"
+}
